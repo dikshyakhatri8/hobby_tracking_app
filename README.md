@@ -2,7 +2,6 @@
 
 A command-line habit tracking application built with Python, combining object-oriented and functional programming paradigms. Users can define recurring habits, log completed sessions, monitor streaks, and analyse their progress through a clean interactive menu.
 
----
 
 ## Features
 
@@ -14,7 +13,6 @@ A command-line habit tracking application built with Python, combining object-or
 - Five predefined habits with four weeks of sample tracking data included
 - 46 unit tests covering every class, method, and edge case
 
----
 
 ## Requirements
 
@@ -27,7 +25,6 @@ To verify your Python version:
 python --version
 ```
 
----
 
 ## Installation
 
@@ -40,7 +37,6 @@ cd <your-repo-name>
 
 2. No additional installation steps are needed. The application runs directly with Python.
 
----
 
 ## Running the Application
 
@@ -50,7 +46,6 @@ python hobby_tracker.py
 
 The application loads the predefined habits from `hobbies.json` and opens the main menu.
 
----
 
 ## How to Use
 
@@ -98,7 +93,6 @@ Displays:
 
 Saves all data and closes the application.
 
----
 
 ## Running the Tests
 
@@ -125,7 +119,6 @@ All 46 tests should pass. The suite covers:
 | `TestHobbyStore` | Save-then-reload round-trips; missing-file edge case |
 | `TestHobbyTracker` | Streak engine (daily and weekly cycles), progress bar, controller state, table display |
 
----
 
 ## Predefined Habits and Sample Data
 
@@ -141,7 +134,6 @@ The file `hobbies.json` ships with five ready-to-use habits and approximately fo
 
 To reset to the original sample data, restore `hobbies.json` from the repository.
 
----
 
 ## Project Structure
 
@@ -164,7 +156,6 @@ To reset to the original sample data, restore `hobbies.json` from the repository
 | CLI controller | `HobbyTracker` | Object-oriented |
 | Streak engine | Module-level helpers (`_rebuild_streak`, `_cycle_open`, `_cycle_close`, `_window_sequence`, `_entries_in_window`, `_progress_bar`) | Pure functions |
 
----
 
 ## How Streaks Work
 
@@ -182,7 +173,6 @@ Mon ✓  Tue ✓  Wed ✗  Thu ✓  Fri (today)
 streak = 1 (only Thu counts), best = 2 (Mon–Tue run)
 ```
 
----
 
 ## License
 
