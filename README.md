@@ -26,18 +26,6 @@ python --version
 ```
 
 
-## Installation
-
-1. Clone or download this repository:
-
-```bash
-git clone https://github.com/<your-username>/<your-repo-name>.git
-cd <your-repo-name>
-```
-
-2. No additional installation steps are needed. The application runs directly with Python.
-
-
 ## Running the Application
 
 ```bash
