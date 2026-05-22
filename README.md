@@ -49,7 +49,7 @@ The application loads the predefined habits from 'hobbies.json' and opens the ma
 
 ### Main Menu
 
-'''
+
   ┌─────────────────────────────┐
   │         MAIN MENU           │
   ├─────────────────────────────┤
@@ -58,7 +58,7 @@ The application loads the predefined habits from 'hobbies.json' and opens the ma
   │  [3]  Progress & Stats      │
   │  [4]  Exit                  │
   └─────────────────────────────┘
-'''
+
 
 ### [1] Hobby Management
 
