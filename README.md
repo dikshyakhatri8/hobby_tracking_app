@@ -45,20 +45,8 @@ python hobby_tracker.py
 The application loads the predefined habits from 'hobbies.json' and opens the main menu.
 
 
-## How to Use
-
-### Main Menu
-
-
-  ┌─────────────────────────────┐
-  │         MAIN MENU           │
-  ├─────────────────────────────┤
-  │  [1]  Hobby Management      │
-  │  [2]  Log a Session         │
-  │  [3]  Progress & Stats      │
-  │  [4]  Exit                  │
-  └─────────────────────────────┘
-
+## How to Use:
+There are 4 steps given below:
 
 ### [1] Hobby Management
 
