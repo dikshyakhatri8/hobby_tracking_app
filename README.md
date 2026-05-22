@@ -30,7 +30,7 @@ python --version
 1. Clone or download this repository:
 
 '''bash
-git clone https://github.com/<your-username>/<your-repo-name>.git
+git clone https://github.com/dikshyakhatri8/hobby_tracking_app.git
 cd <your-repo-name>
 '''
 
