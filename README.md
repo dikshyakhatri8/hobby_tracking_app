@@ -31,7 +31,6 @@ python --version
 
 '''bash
 git clone https://github.com/dikshyakhatri8/hobby_tracking_app.git
-cd <your-repo-name>
 '''
 
 2. No additional installation steps are needed. The application runs directly with Python.
